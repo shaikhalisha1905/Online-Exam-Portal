@@ -1,0 +1,72 @@
+/*----------------Navbar Background-----------------*/
+
+.linavbar{
+  background: rgb(170, 192, 214);
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 120px;
+  font-weight: bold;
+}
+
+/*-------Link-----*/
+
+.hlilist a {    
+  color: black;
+  text-decoration: none;
+  margin: 10px 10px;
+  font-size: 20px;
+  padding: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hlilist ul li{
+  align-items: center;
+  display: inline-block;
+  position: relative;
+  font-family:'Trebuchet MS';
+  margin: 5px 5px;
+  cursor: pointer;
+  } 
+
+.hlilist ul li:hover::after{
+	width: 55%;
+}
+
+
+/*-------logo----*/
+
+.logo{
+  background-color: rgb(33, 33, 238,0.1); 
+  padding-left: 50px;
+}
+
+
+/*-------login button----*/
+
+.logbtn{
+  padding-bottom: 0px;
+  margin-top: 20px;
+  padding-top: -20px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: slategrey;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 15px;
+  margin-left: 880px;
+  cursor: pointer;
+}
+
+
+/*-----------Profile Img----------*/
+.prof{
+  padding-left: 55px;
+  margin-bottom: 22px;
+  margin-left: 990px;
+}

@@ -1,0 +1,51 @@
+.container form{
+    margin-top: 50px;
+    height: 400px;
+    margin: auto;
+    padding: 40px 50px;
+    /* border-radius: 30px; */
+    justify-content: center;
+    background-color: rgb(173,216,230,0.3);
+    background: linear-gradient(to right,rgb(173,216,230,0.2),rgb(76, 180, 214,0.4));
+}
+.logh{
+    font-family:'Lucida Sans';
+    margin-bottom: 20px;
+    color: rgb(6, 43, 75);
+    margin-left: 500px;
+    font-size: 45px;
+}
+.flog{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 600px;
+    margin-top: -90px;
+}
+.loglbl{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 490px;
+    color: rgb(55, 55, 245);
+}
+
+.logbtnsub{
+    height: 45px;
+    width: 100px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: slategray;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-left: 590px;
+}
+.logbtnsub:hover{
+    background-color: black;
+    color: white;
+}
+.logip input{
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+    font-size: 17px;
+}
